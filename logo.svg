@@ -1,0 +1,66 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient for modern look -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Glow effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Text gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f39c12;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="200" rx="20" fill="url(#bgGrad)"/>
+  
+  <!-- Modern React Symbol -->
+  <g transform="translate(100, 80)">
+    <!-- Outer rings with glow -->
+    <g filter="url(#glow)">
+      <ellipse cx="0" cy="0" rx="45" ry="15" stroke="#e94560" stroke-width="3" fill="none" opacity="0.8"/>
+      <ellipse cx="0" cy="0" rx="45" ry="15" stroke="#f39c12" stroke-width="2" fill="none" transform="rotate(60)" opacity="0.6"/>
+      <ellipse cx="0" cy="0" rx="45" ry="15" stroke="#9b59b6" stroke-width="2" fill="none" transform="rotate(-60)" opacity="0.6"/>
+    </g>
+    
+    <!-- Inner core -->
+    <circle cx="0" cy="0" r="6" fill="#e94560" filter="url(#glow)"/>
+  </g>
+  
+  <!-- Modern Typography -->
+  <text x="100" y="140" text-anchor="middle" font-family="SF Pro Display, -apple-system, BlinkMacSystemFont, sans-serif" 
+        font-size="24" font-weight="700" fill="url(#textGrad)" letter-spacing="2px">
+    REACT
+  </text>
+  
+  <text x="100" y="165" text-anchor="middle" font-family="SF Pro Display, -apple-system, BlinkMacSystemFont, sans-serif" 
+        font-size="16" font-weight="500" fill="#7f8c8d" letter-spacing="3px">
+    TOOLKIT
+  </text>
+  
+  <!-- Decorative elements -->
+  <g opacity="0.3">
+    <!-- Top left accent -->
+    <circle cx="25" cy="25" r="3" fill="#e94560"/>
+    <circle cx="35" cy="20" r="2" fill="#f39c12"/>
+    
+    <!-- Bottom right accent -->
+    <circle cx="175" cy="175" r="3" fill="#9b59b6"/>
+    <circle cx="165" cy="180" r="2" fill="#e94560"/>
+  </g>
+  
+  <!-- Subtle border -->
+  <rect width="200" height="200" rx="20" stroke="rgba(233, 69, 96, 0.3)" stroke-width="1" fill="none"/>
+</svg>

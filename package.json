@@ -10,7 +10,9 @@
   "files": [
     "bin",
     "template",
-    "README.md"
+    "README.md",
+    "logo.svg",
+    "LICENSE"
   ],
   "keywords": [
     "react",
