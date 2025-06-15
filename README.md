@@ -4,7 +4,7 @@
 
 # React Toolkit CLI 🚀
 
-[![npm version](https://badge.fury.io/js/react-toolkit-cli.svg)](https://badge.fury.io/js/react-toolkit-cli)
+[![npm version](https://badge.fury.io/js/toolkit-react-cli.svg)](https://badge.fury.io/js/toolkit-react-cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-18%2B-blue.svg)](https://reactjs.org/)
 
@@ -15,7 +15,7 @@ A simple React project generator CLI that creates React projects with everything
 ### Create a New Project
 
 ```bash
-npx react-toolkit-cli my-awesome-app
+npx toolkit-react-cli my-awesome-app
 cd my-awesome-app
 npm run dev
 ```
@@ -23,7 +23,7 @@ npm run dev
 ### Install in Current Directory
 
 ```bash
-npx react-toolkit-cli ./
+npx toolkit-react-cli ./
 npm run dev
 ```
 
@@ -164,7 +164,7 @@ npm install axios react-router-dom react-toastify tailwindcss
 
 ### ✅ **After (React Toolkit CLI)**
 ```bash
-npx react-toolkit-cli my-app
+npx toolkit-react-cli my-app
 cd my-app
 npm run dev
 ```

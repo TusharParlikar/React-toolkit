@@ -11,12 +11,11 @@ const __dirname = path.dirname(__filename);
 const args = process.argv.slice(2);
 const projectName = args[0];
 
-if (!projectName) {
-  console.error('❌ Error: Please specify a project name or use "./" for current directory');
+if (!projectName) {  console.error('❌ Error: Please specify a project name or use "./" for current directory');
   console.log('');
   console.log('Usage:');
-  console.log('  npx react-toolkit-cli my-app     # Create new project');
-  console.log('  npx react-toolkit-cli ./         # Install in current directory');
+  console.log('  npx toolkit-react-cli my-app     # Create new project');
+  console.log('  npx toolkit-react-cli ./         # Install in current directory');
   process.exit(1);
 }
 
