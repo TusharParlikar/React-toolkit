@@ -1,6 +1,6 @@
 {
   "name": "toolkit-react-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React project generator CLI that creates React projects with axios, react-router-dom, Tailwind CSS, and essential utilities built-in.",
   "type": "module",
   "bin": {
