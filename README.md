@@ -182,10 +182,12 @@ npm run dev
 ## 🤝 **Contributing**
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+2. Clone your fork (`git clone https://github.com/yourusername/toolkit-react-cli.git`)
+3. Install dependencies (`npm install`)
+4. Create your feature branch (`git checkout -b feature/amazing-feature`)
+5. Commit your changes (`git commit -m 'Add amazing feature'`)
+6. Push to the branch (`git push origin feature/amazing-feature`)
+7. Open a Pull Request
 
 ## 📄 **License**
 
