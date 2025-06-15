@@ -1,10 +1,10 @@
 {
-  "name": "react-toolkit",
+  "name": "react-toolkit-cli",
   "version": "1.0.0",
-  "description": "A React project generator CLI tool with axios, react-router-dom, and essential utilities built-in.",
+  "description": "A React project generator CLI that creates React projects with axios, react-router-dom, Tailwind CSS, and essential utilities built-in.",
   "type": "module",
   "bin": {
-    "react-toolkit": "./bin/cli.js",
+    "react-toolkit-cli": "./bin/cli.js",
     "create-react-toolkit": "./bin/cli.js"
   },
   "files": [
@@ -16,20 +16,19 @@
   ],
   "keywords": [
     "react",
-    "toolkit",
     "cli",
-    "scaffold",
     "generator",
+    "toolkit",
+    "scaffold",
+    "create-react-app",
+    "vite",
     "axios",
     "react-router-dom",
-    "vite",
     "tailwind",
     "boilerplate",
     "utilities",
-    "create-react-app",
     "frontend",
-    "javascript",
-    "typescript"
+    "javascript"
   ],
   "author": "Tushar Parlikar <tparlikar497@gmail.com>",
   "license": "MIT",

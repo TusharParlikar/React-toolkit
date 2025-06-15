@@ -1,6 +1,6 @@
-# React Toolkit App
+# React Toolkit CLI App
 
-Welcome to your new React project created with React Toolkit!
+Welcome to your new React project created with React Toolkit CLI!
 
 ## 🚀 What's Included
 
@@ -31,9 +31,9 @@ npm run lint
 ## 📚 Using React Toolkit
 
 ```jsx
-import { OnSuccess, OnError } from 'react-toolkit';
-import { axios } from 'react-toolkit';
-import { BrowserRouter, Routes, Route } from 'react-toolkit';
+import { OnSuccess, OnError } from 'react-toolkit-cli';
+import { axios } from 'react-toolkit-cli';
+import { BrowserRouter, Routes, Route } from 'react-toolkit-cli';
 
 // Show notifications
 OnSuccess('Data saved successfully!');
@@ -85,7 +85,7 @@ server: {
 
 ```javascript
 // src/services/api.js
-import { axios, OnSuccess, OnError } from 'react-toolkit';
+import { axios, OnSuccess, OnError } from 'react-toolkit-cli';
 
 class ApiService {
   async getUsers() {

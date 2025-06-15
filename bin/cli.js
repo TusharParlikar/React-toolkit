@@ -15,8 +15,8 @@ if (!projectName) {
   console.error('❌ Error: Please specify a project name or use "./" for current directory');
   console.log('');
   console.log('Usage:');
-  console.log('  npx react-toolkit my-app     # Create new project');
-  console.log('  npx react-toolkit ./         # Install in current directory');
+  console.log('  npx react-toolkit-cli my-app     # Create new project');
+  console.log('  npx react-toolkit-cli ./         # Install in current directory');
   process.exit(1);
 }
 
