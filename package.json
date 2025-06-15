@@ -1,7 +1,8 @@
 {
   "name": "toolkit-react-cli",
-  "version": "1.0.1",
-  "description": "A CLI tool to quickly generate React projects with Vite, Tailwind CSS, axios, react-router-dom and utilities. Use with 'npx toolkit-react-cli project-name'.",  "type": "module",
+  "version": "1.0.2",
+  "description": "A CLI tool to quickly generate React projects with Vite, Tailwind CSS, axios, react-router-dom and utilities. Use with 'npx toolkit-react-cli project-name'.",
+  "type": "module",
   "preferGlobal": true,
   "bin": {
     "toolkit-react-cli": "./bin/cli.js",
@@ -13,7 +14,8 @@
     "README.md",
     "logo.svg",
     "LICENSE"
-  ],  "keywords": [
+  ],
+  "keywords": [
     "react",
     "cli",
     "npx",
